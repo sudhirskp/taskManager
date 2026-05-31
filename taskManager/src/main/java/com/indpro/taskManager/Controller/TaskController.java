@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/tasks")
 @RequiredArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://managertaskk.netlify.app" , allowCredentials = "true")
 public class TaskController {
 
     private final TaskService taskService;
@@ -27,7 +27,6 @@ public class TaskController {
     @GetMapping("/{userId}")
     public List<Task> getTasks(
             @PathVariable Long userId){
-
         return taskService.getTasksByUser(userId);
     }
 
