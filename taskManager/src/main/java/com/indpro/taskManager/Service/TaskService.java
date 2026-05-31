@@ -29,13 +29,13 @@ public class TaskService {
         task.setTitle(request.getTitle());
         task.setDescription(request.getDescription());
         task.setStatus(request.getStatus());
-        task.setUser(user);
+        task.setUserId(user);
 
         return taskRepository.save(task);
     }
 
     public List<Task> getTasksByUser(Long userId) {
-        return taskRepository.findByUserId(userId);
+        return taskRepository.findByUserId_Id(userId);
     }
 
     public Task updateTask(Long id, TaskDto request) {
