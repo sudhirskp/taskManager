@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/tasks")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://managertaskk.netlify.app" , allowCredentials = "true")
+//@CrossOrigin(origins = "https://managertaskk.netlify.app" , allowCredentials = "true")
 public class TaskController {
 
     private final TaskService taskService;
