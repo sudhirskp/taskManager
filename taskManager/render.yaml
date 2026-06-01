@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: taskmanager
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: PORT
+        value: 8080
+
