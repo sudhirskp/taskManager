@@ -4,10 +4,10 @@ A Spring Boot REST API for managing tasks and user authentication.
 
 ## 🔗 Frontend & Demo
 
-- **Live Frontend:** https://managertaskk.netlify.app/login
+- **Live Here :** https://managertaskk.netlify.app/login
 - **Frontend Repository:** https://github.com/sudhirskp/taskManager_frontend
 - **Demo Video:** Visit the frontend repository for the demo video link
-- **Backend Status:** Running locally during development (not deployed yet)
+- **Backend Live URL:** https://taskmanager-15hk.onrender.com/
 
 ## ✨ Features
 
